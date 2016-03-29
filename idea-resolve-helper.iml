@@ -12,6 +12,7 @@
           <file>file://$TeamCityDistribution$/webapps/ROOT/WEB-INF/buildServerPluginsSupportWeb.xml</file>
           <file>file://$TeamCityDistribution$/webapps/ROOT/WEB-INF/buildServerSpringStatistics.xml</file>
           <file>file://$TeamCityDistribution$/webapps/ROOT/WEB-INF/buildServerSpringWeb.xml</file>
+          <file>file://$TeamCityDistribution$/webapps/ROOT/WEB-INF/buildServerSpringWebDiag.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -48,4 +49,3 @@
     <orderEntry type="library" name="TeamCity server runtime" level="project" />
   </component>
 </module>
-
