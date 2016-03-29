@@ -1,4 +1,5 @@
 import jetbrains.buildServer.BaseTestCase;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -8,6 +9,9 @@ import org.testng.annotations.Test;
 public class SimpleTest extends BaseTestCase {
   @Test
   public void Test() {
+    AppService appService = new AppService();
+    String name = appService.GetName();
 
+    Assert.assertEquals(name, "Bob");
   }
 }
